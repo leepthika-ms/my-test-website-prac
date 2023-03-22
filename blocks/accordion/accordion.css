@@ -48,16 +48,15 @@
 
 .accordion-body p {
     font-family: 'proxima_novaregular';
-    font-size: 18px;
-    line-height: 27px;
-    color: #333132;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ca78a1;
     padding-bottom: 0;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 .accordion .collapsed {
     display: none;
-    overflow: hidden;
-    opacity: 0;
+    overflow: hidden;    
 }
 
 /* .default-content-wrapper + .accordion-wrapper {
