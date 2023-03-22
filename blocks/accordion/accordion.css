@@ -23,21 +23,16 @@
     font-family: 'proxima_novaextrabold';
 }
 
-.accordion-title > div:after {
+/* .accordion-title > div:after {
     content: "";
     position: absolute;
     right: 25px;
     z-index: 7;
-    display: block;
-    background-image: url(/assets/imgs/accordion-chevron.png);
-    background-repeat: no-repeat;
+    display: block;    
     width: 19px;
     height: 10px;
-}
+} */
 
-.accordion-title.active > div:after {
-    background-image: url(/assets/imgs/accordion-chevron-up.png);
-}
 
 .accordion-body  {
     margin-bottom: 13px;
@@ -47,20 +42,9 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: block;
-    visibility: visible;
-    opacity: 1;
-    animation: fade 1s;
+    visibility: visible;   
 }
 
-@keyframes fade {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
 
 .accordion-body p {
     font-family: 'proxima_novaregular';
@@ -76,6 +60,6 @@
     opacity: 0;
 }
 
-.default-content-wrapper + .accordion-wrapper {
+/* .default-content-wrapper + .accordion-wrapper {
     margin-top: 50px;
-}
+} */
